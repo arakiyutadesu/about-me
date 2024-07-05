@@ -2,7 +2,7 @@ var lic = "。";
 
 function infalert(mes){
 
-for(i=1; i<=10; i++){
+for(i=1; i<=100; i++){
 
 alert("うんち");
 
