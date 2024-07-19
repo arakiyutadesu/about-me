@@ -130,7 +130,7 @@ function End(issue){
 
     //1:ゲームクリア, 2:ゲームオーバー
     switch(issue){
-        case 1: const winContent = document.body.innerHTML = "<a href=index.html>自己紹介</a>";
+        case 1: const winContent = document.body.innerHTML = "<a href=main.html>自己紹介</a>";
                 name.appendChild(winContent);
                 cdiv.appendChild(name);
                 const timeResult = document.createTextNode(count);
