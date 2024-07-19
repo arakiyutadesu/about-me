@@ -137,7 +137,7 @@ function End(issue){
                 result.appendChild(timeResult);
                 cdiv.appendChild(result);
                 break;
-        case 2: const loseContent = document.createTextNode("-SCORE-");
+        case 2: const loseContent = document.body.innerHTML = "<a href=main.html>クリアできない雑魚</a>";
                 name.appendChild(loseContent);
                 cdiv.appendChild(name);
                 const scoreResult = document.createTextNode(num);
